@@ -1,0 +1,1 @@
+Dism /online /enable-feature /featurename:NetFX3 /All /Source:\\192.168.2.12\bra01fsinfra01\Pessoal\Geraldo\DotNet3.5\sxs /LimitAccess
