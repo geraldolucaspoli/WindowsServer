@@ -1,1 +1,5 @@
-Dism /online /enable-feature /featurename:NetFX3 /All /Source:\\192.168.2.12\bra01fsinfra01\Pessoal\Geraldo\DotNet3.5\sxs /LimitAccess
+
+
+cd C:\Windows\Temp
+Invoke-WebRequest -UseBasicParsing https://raw.githubusercontent.com/geraldolucaspoli/install-zabbix-agente-windows/master/zabbix_agents_3.4.6.win/bin/win64/zabbix_agentd.exe  -OutFile zabbix_agentd.exe
+
