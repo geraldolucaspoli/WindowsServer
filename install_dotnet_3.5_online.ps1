@@ -1,5 +1,3 @@
-
-
 cd C:\Windows\Temp
-Invoke-WebRequest -UseBasicParsing https://raw.githubusercontent.com/geraldolucaspoli/install-zabbix-agente-windows/master/zabbix_agents_3.4.6.win/bin/win64/zabbix_agentd.exe  -OutFile zabbix_agentd.exe
-
+Invoke-WebRequest -UseBasicParsing https://github.com/geraldolucaspoli/WindowsServer/blob/master/microsoft-windows-netfx3-ondemand-package.cab  -OutFile microsoft-windows-netfx3-ondemand-package.cab
+Dism /online /enable-feature /featurename:NetFX3 /All /Source:C:\Windows\Temp /LimitAccess
